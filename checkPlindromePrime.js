@@ -5,7 +5,7 @@ for(let i = 1; i<=num; i++){
     count++;
   }
 }
-if(count == 0){
+if(count == 2){
   console.log("prime");
 }
 else{
@@ -17,7 +17,7 @@ let str = "mmaamm";
 for(let i = str.length-1; i>=0 ; i--){
     bag += str[i];
 }
-if(bag != str){
+if(bag == str){
   console.log("palindrome");
 }
 else{
